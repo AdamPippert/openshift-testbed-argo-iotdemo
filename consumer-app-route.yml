@@ -11,6 +11,7 @@ metadata:
   creationTimestamp: null
 spec:
   host: consumer-app-myproject.apps.ly-demo.openshiftaws.com
+  # host: consumer-app-myproject.apps.<CLUSTER_NAME>.<DOMAIN_NAME>
   port:
     targetPort: http
   to:
