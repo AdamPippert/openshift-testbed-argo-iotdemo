@@ -11,6 +11,7 @@ metadata:
   creationTimestamp: null
 spec:
   host: consumer-app-myproject.apps.ly-demo.openshiftaws.com
+  # for use in workshops, uncomment and replace the <CLUSTER_NAME> and <DOMAIN_NAME> with the correct parameters
   # host: consumer-app-myproject.apps.<CLUSTER_NAME>.<DOMAIN_NAME>
   port:
     targetPort: http
